@@ -8,5 +8,6 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   build : {
     outDir: './docs'
-  }
+  },
+  base: '/portfolio-2025/'
 })
